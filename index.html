@@ -6,21 +6,34 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<form class="search_city_form">
-		<label for="search_city">Find a city</label>
-		<input type="text" id="search_city_field">
+	<h1 class="main_header">WEATHER</h1>
+	
+	<div class="input_area">
+		<form class="search_city_form">
+			<label for="search_city">Find a city:</label>
+			<input type="text" id="search_city_field">
 
-		<input type="submit">
-	</form>
+			<input type="submit">
+		</form>
 
-	<button class="change_units">℉ / ℃</button>
+		
+	</div>
 
-	<div class="display">
-		<h1 class="city"></h1>
-		<h2 class="sky"></h2>
-		<h2 class="current_temp"></h2>
-		<h3 class="temp_max"></h3>
-		<h3 class="temp_min"></h3>
+	<div class="display flexed">
+		<div class="weather_data flexed">
+			<h2 class="city_display"><span class="city"></span></h1>
+			
+			<h3 class="current_temp_display">Currently: <span class="current_temp"></span></h2>
+			<h4 class="temp_max_display">High/Low: <span class="temp_max"></span> / <span class="temp_min"></span></h3>
+			<button class="change_units">℉ / ℃</button>
+		</div>
+
+		<div class="weather_image flexed">
+			<h3 class="sky_display"><span class="sky"></span></h2>
+			<div class="weather_icon_display"></div>
+		</div>
+
+		
 	</div>
 	
 </body>
