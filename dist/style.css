@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	background-color: #e6f2ff;
+}
+
+.main_header {
+	background-color: #0080ff;
+	margin: 0;
+	padding: 20px;
+	color: #e6f2ff;
+}
+
+.input_area {
+	background-color: #99ccff;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.search_city_form {
+	display: inline-block;
+}
+
+.display {
+text-align: center;
+display: flex;
+}
+
+.weather_data {
+	margin-left: 20px;
+	width: 45%;
+}
+
+.weather_image {
+	width: 45%;
+}
+
+.weather_icon_display {
+	background-color: #0080ff;
+	border-radius: 15px;
+	width: 50%;
+	margin: 0 auto;
+}
