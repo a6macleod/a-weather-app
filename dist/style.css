@@ -23,6 +23,7 @@ body {
 .display {
 text-align: center;
 display: flex;
+margin: 0 15% 0 15%;
 }
 
 .weather_data {
